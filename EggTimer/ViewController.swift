@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     
     var player: AVAudioPlayer!
     
-    let eggTime = ["Soft": 5, "Medium": 7, "Hard": 12 ]
+    let eggTime = ["Soft": 300, "Medium": 480, "Hard": 720 ]
     
     var timer = Timer()
     var totalTime = 0
